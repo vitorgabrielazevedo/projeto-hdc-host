@@ -71,3 +71,44 @@
 #main-banner p {
     font-size: 2rem;
 }
+
+#servicos-container {
+    padding: 3rem;
+}
+
+#servicos-container ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+}
+
+#servicos-container li {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+#servicos-container i {
+    font-size: 64px;
+    margin-bottom: 0.5rem;
+}
+
+.fa-shield-alt {
+    color: #3ab62f;
+}
+
+.fa-rocket {
+    color: #e72525;
+}
+
+.fa-comments {
+    color: #ff6601;
+}
+
+#servicos-container h3 {
+    margin-bottom: 16px;
+}
+
+#servicos-container p {
+    line-height: 24px;
+}

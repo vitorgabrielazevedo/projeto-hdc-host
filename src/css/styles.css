@@ -124,14 +124,71 @@
 
 #precos-container p {
     font-size: 20px;
+    color: #444;
 }
 
 #planos-container {
     display: flex;
     justify-content: space-evenly;
-    padding: 2rem 0;
 }
 
 #planos-container ul {
     list-style: none;
+}
+
+.assinatura {
+    max-width: 250px;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.assinatura ul {
+    padding: 0;
+    position: relative;
+}
+
+.assinatura li {
+    height: 50px;
+    line-height: 50px;
+    background-color: #e4e1e1;
+    color: #333;
+}
+
+.assinatura .preco {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #65af5e;
+    color: #fff;
+    line-height: 150px;
+    font-weight: bold;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    top: 50px;
+}
+
+.assinatura .nome-assinatura {
+    padding: 50px 0;
+    background-color: #1a3643;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.assinatura a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.assinatura .assinatura-btn {
+    background-color: #65af5e;
+    font-size: 20px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.assinatura .recomendado {
+    background-color: #e74a4a;
 }

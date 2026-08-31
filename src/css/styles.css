@@ -192,3 +192,46 @@
 .assinatura .recomendado {
     background-color: #e74a4a;
 }
+
+#dominio-container {
+    padding: 3rem 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f3c49;
+}
+
+#dominio-container h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#dominio-container p {
+    font-size: 20px;
+    color: #d5d5d5;
+    margin-bottom: 30px;
+}
+
+#dominio-container input {
+    border: none;
+    border-radius: 5px;
+}
+
+#dominio-container input[type="text"] {
+    padding: 15px 25px;
+    width: 450px;
+    font-size: 18px;
+    height: 50px;
+}
+
+#dominio-container input[type="submit"] {
+    padding: 15px;
+    width: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 50px;
+}

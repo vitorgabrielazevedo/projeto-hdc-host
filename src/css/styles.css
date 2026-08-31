@@ -79,12 +79,13 @@
 #servicos-container ul {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
     list-style: none;
 }
 
 #servicos-container li {
-    flex: 1 1 200px;
+    flex: 1 1 250px;
     text-align: center;
 }
 
@@ -227,6 +228,10 @@
     height: 50px;
 }
 
+#dominio-container input[type="text"]:focus {
+    outline: none;
+}
+
 #dominio-container input[type="submit"] {
     padding: 15px;
     width: 100px;
@@ -234,4 +239,11 @@
     cursor: pointer;
     transition: 0.3s;
     height: 50px;
+    background-color: #07cf39;
+    color: #fdfdfd;
+    font-weight: bold;
+}
+
+#dominio-container input[type="submit"]:hover {
+    background-color: #07bb34;
 }

@@ -131,6 +131,7 @@
 #planos-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #planos-container ul {
@@ -139,7 +140,8 @@
 
 .assinatura {
     max-width: 250px;
-    flex: 1;
+    min-width: 250px;
+    /* flex: 1; */
     margin: 0 20px;
 }
 

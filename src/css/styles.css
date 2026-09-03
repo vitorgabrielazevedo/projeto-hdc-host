@@ -309,3 +309,36 @@ footer {
     color: #fdfdfd;
     background-color: #333;
 }
+
+@media (max-width: 900px) {
+    #main-banner p {
+        padding: 0 3rem;
+    }
+
+    #dominio-container h2 {
+        font-size: 30px;
+        padding: 0 5rem;
+    }
+
+    #dominio-container input[type="text"] {
+        width: 400px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    #contato-container p {
+        padding: 0 2rem;
+    }
+
+    #contato-container input {
+        display: block;
+        margin: 5px auto 5px;
+    }
+
+    #contato-container input,
+    #contato-container textarea {
+        width: 90%;
+        padding: 10px 20px;
+    }
+}

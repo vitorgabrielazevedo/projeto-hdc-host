@@ -210,6 +210,7 @@
     font-size: 36px;
     color: #fff;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 #dominio-container p {
@@ -327,6 +328,20 @@ footer {
 }
 
 @media (max-width: 576px) {
+    #nav-links a {
+        font-size: 12px;
+    }
+
+    #dominio-container input[type="text"] {
+        width: 350px;
+    }
+
+    #dominio-container input[type="submit"] {
+        margin: 5px auto 0;
+        display: block;
+        width: 200px;
+    }
+
     #contato-container p {
         padding: 0 2rem;
     }
@@ -340,5 +355,24 @@ footer {
     #contato-container textarea {
         width: 90%;
         padding: 10px 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    #main-banner h1 {
+        font-size: 2rem;
+    }
+
+    #main-banner p {
+        font: 1.5rem;
+    }
+
+    #dominio-container h2 {
+        font-size: 24px;
+        padding: 1rem 2rem 0;
+    }
+
+    #dominio-container p {
+        font-size: 16px;
     }
 }
